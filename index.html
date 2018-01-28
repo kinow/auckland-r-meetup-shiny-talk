@@ -43,23 +43,103 @@
       <section>
         <h3>R Shiny</h3>
         <ul>
-          <li></li>
+          <li>Brings R to the web</li>
+          <li>Requires minimum knowledge of web development</li>
+          <li>Both Pro &amp; Open Source versions available</li>
+          <li>Good documentation, code, and community</li>
         </ul>
       </section>
       <section>
         <h3>R Shiny installation</h3>
+        <ul style="font-size: 70%">
+          <li>Linux only</li>
+          <li>Debian, SUSE, and Red Hat packages available</li>
+          <li>On Ubuntu:
+            <ul>
+              <li><code>$ sudo apt-get install r-base</code></li>
+              <li><code>$ R</code></li>
+              <li><code>> install.packages('shiny')</code></li>
+              <li><code>$ sudo apt-get install gdebi-core</code></li>
+              <li><code>$ wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.5.6.875-amd64.deb</code></li>
+              <li><code>$ # you md5sum check the file...</code></li>
+              <li><code>$ sudo gdebi shiny-server-1.5.6.875-amd64.deb</code></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>R Shiny (automated) installation</h3>
+        <ul style="font-size: 70%">
+          <li>The old Perl motto <strong>TMTOWTDI</strong> applies here</li>
+          <li>Docker
+            <ul>
+              <li><a href="https://hub.docker.com/r/rocker/shiny/">https://hub.docker.com/r/rocker/shiny/</a></li>
+              <li><a href="https://github.com/rstudio/shiny-examples/tree/master/docker">https://github.com/rstudio/shiny-examples/tree/master/docker</a></li>
+            </ul>
+          </li>
+          <li>Vagrant
+            <ul>
+              <li><a href="https://github.com/ginolhac/vagrant-shiny">https://github.com/ginolhac/vagrant-shiny</a></li>
+            </ul>
+          </li>
+          <li>Configuration Management tools
+            <ul>
+              <li><a href="https://github.com/fasrc/puppet-shiny">https://github.com/fasrc/puppet-shiny</a></li>
+              <li><a href="https://github.com/SkydiveMarius/puppet-r-shiny">https://github.com/SkydiveMarius/puppet-r-shiny</a></li>
+              <li><a href="https://github.com/openearth/stack/tree/master/roles/shiny">https://github.com/openearth/stack/tree/master/roles/shiny</a></li>
+              <li><a href="https://github.com/kinow/nz-shiny-server/tree/master/infra">https://github.com/kinow/nz-shiny-server/tree/master/infra</a></li>
+            </ul>
+          </li>
+          <li>Shell script, Python, Perl, etc</li>
+        </ul>
       </section>
       <section>
         <h3>shiny.nzoss.org.nz</h3>
       </section>
       <section>
+        <h3>shiny.nzoss.org.nz</h3>
+        <ul style="font-size: 80%">
+          <li>Still a work in progress</li>
+          <li>We aim at working with R and Shiny users around NZ to make it useful and well used</li>
+          <li>We want to increase the amount of open data available here</li>
+          <li>Applications are deployed via pull requests to a git repository</li>
+          <li>The server automatically install new applications listed in a file</li>
+          <li>For more information visit <a href="https://github.com/kinow/nz-shiny-server/wiki/Adding-new-R-applications">https://github.com/kinow/nz-shiny-server/wiki/Adding-new-R-applications</a></li>
+        </ul>
+      </section>
+      <section>
         <h3>Current apps</h3>
+        <ul>
+          <li><a href="https://shiny.nzoss.org.nz/nz_shiny_river_app/">New Zealand River Monitoring (BETA)</a></li>
+          <li><a href="https://shiny.nzoss.org.nz/nz_example_earthquakes/">Canterbury (NZ) Earthquake Analysis</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3><a href="https://shiny.nzoss.org.nz/nz_shiny_river_app/">New Zealand River Monitoring (BETA)</a></h3>
+        <img src="img/nz-river-mon-screenshot.png" />
+      </section>
+      <section>
+        <h3><a href="https://shiny.nzoss.org.nz/nz_example_earthquakes/">Canterbury (NZ) Earthquake Analysis</a></h3>
+        <img src="img/nz-earthquake-screenshot.png" />
       </section>
       <section>
         <h3>Future work</h3>
+        <ul>
+          <li>Make it easier to manage what applications are deployed</li>
+          <li>Add security</li>
+          <li>Improve documentation</li>
+          <li>Investigate <a href="https://www.shinyproxy.io">ShinyProxy</a></li>
+        </ul>
       </section>
       <section>
         <h3>Thanks</h3>
+        <ul>
+          <li>Aimee Whitcroft</li>
+          <li>Brent Wood</li>
+          <li>Catalyst Cloud</li>
+          <li>InternetNZ</li>
+          <li>New Zealand Open Source Society &mdash; NZOSS</li>
+        </ul>
       </section>
       <section>
         <h3>Questions ?</h3>

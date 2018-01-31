@@ -1,4 +1,4 @@
-# The Developers Conference 2011 "Botando o Jenkins para rodar seus testes" 
+# R Shiny + Ansible = shiny.nzoss.org.nz
 
-Slides for talk "Botando o Jenkins para rodar seus testes", presented at
-The Developers Conference, in Florian&oacute;polis, Brazil, 2011 by Bruno P. Kinoshita.
+Slides for talk "R Shiny + Ansible = shiny.nzoss.org.nz", presented at
+Auckland R Users Group (AKLRUG), Auckland, 2018 by Bruno P. Kinoshita.
